@@ -1,0 +1,25 @@
+{
+  "name": "streamic-live-scraper",
+  "version": "1.0.0",
+  "description": "Streamic.st Live Sports & Channels Scraper with IST Timezone, 20-min Pre-Match Activation, and Auto-End Stream Lifecycle Management",
+  "main": "scraper.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js",
+    "active": "node cli.js --active",
+    "all": "node cli.js --all",
+    "channels": "node cli.js --channels",
+    "m3u": "node cli.js --m3u"
+  },
+  "keywords": [
+    "streamic",
+    "sports-scraper",
+    "iptv",
+    "m3u",
+    "ist-timezone",
+    "live-sports"
+  ],
+  "author": "",
+  "license": "MIT"
+}
